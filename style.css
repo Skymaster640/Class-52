@@ -1,0 +1,63 @@
+.Hello{
+  color:#ffffff;
+  padding:30px;
+}
+
+*{
+    background-color:#C87576;
+   
+}
+p{
+background-color:#777777
+}
+
+
+
+body{
+border:solid
+}
+
+.info{
+    font-style:italic
+}
+
+.images{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly
+}
+
+h1{
+    text-align:center;
+}
+
+
+a:link{
+    color:blue;
+}
+
+a:visited{
+    color:orange;
+}
+
+
+
+.gameinfo{
+    position:relative;
+}
+
+.gameinfo p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.gameinfo:hover p{
+    opacity:1;
+}
+
+.gameinfo:hover img{
+    opacity:0.33;
+}
